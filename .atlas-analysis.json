@@ -1,0 +1,94 @@
+{
+  "projectType": "saas",
+  "projectName": "TuWeb Studio",
+  "projectDescription": "A no-code website builder SaaS platform that enables small businesses to create professional websites in minutes through a guided wizard interface.",
+  "theme": "palm",
+  "primaryColor": "#8B5CF6",
+  "lightColor": "#A78BFA",
+  "darkColor": "#7C3AED",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/wizard",
+              "features/templates",
+              "features/authentication",
+              "features/dashboard"
+            ]
+          },
+          {
+            "group": "User Guides",
+            "pages": [
+              "guides/creating-website",
+              "guides/customization",
+              "guides/publishing",
+              "guides/managing-sites"
+            ]
+          },
+          {
+            "group": "Technical",
+            "pages": [
+              "technical/architecture",
+              "technical/database-schema",
+              "technical/components"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Development",
+        "groups": [
+          {
+            "group": "Setup",
+            "pages": [
+              "development/environment",
+              "development/installation",
+              "development/configuration"
+            ]
+          },
+          {
+            "group": "Integration",
+            "pages": [
+              "development/supabase",
+              "development/authentication",
+              "development/database"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Guided website creation wizard with 4-step process",
+    "Business type selection (service, product, local, personal)",
+    "Professional template library",
+    "Real-time preview and customization",
+    "WhatsApp integration for customer contact",
+    "User authentication and dashboard",
+    "Multi-website management",
+    "Supabase backend integration",
+    "Responsive design with mobile-first approach",
+    "Pricing tiers (Free, Pro, Business)"
+  ],
+  "publicApiSurface": [
+    "AuthProvider context and useAuth hook",
+    "Supabase client integration",
+    "Website creation wizard components (BusinessTypeStep, TemplateStep, ContentStep, PreviewStep)",
+    "Dashboard with website management",
+    "Landing page sections (Hero, Features, HowItWorks, Pricing, Testimonials, CTA)",
+    "UI components from shadcn/ui (Button, Card, Input, Form, etc.)",
+    "React Router navigation",
+    "TanStack Query for data fetching"
+  ]
+}
